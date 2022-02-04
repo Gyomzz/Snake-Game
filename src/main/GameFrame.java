@@ -1,8 +1,10 @@
+package main;
+
 import javax.swing.JFrame;
 
 public class GameFrame extends JFrame {
-
-    GameFrame(){
+    
+    GameFrame() {
 
         this.add(new GamePanel());
         this.setTitle("Snake");

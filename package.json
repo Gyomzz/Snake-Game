@@ -4,7 +4,8 @@
   "description": "A basic Snake Game made with java",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "game": "javac -d bin/ src/main/SnakeGame.java src/main/GamePanel.java src/main/GameFrame.java && java -cp bin/ main.SnakeGame"
   },
   "author": "",
   "license": "ISC"
